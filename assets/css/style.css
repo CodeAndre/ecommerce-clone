@@ -314,7 +314,7 @@ img {
 .sneaker__name, .sneaker__preci {
     font-size: var(--h2-font-size);
     letter-spacing: .1rem;
-    font-weight: var(--font-semi-bold);
+    font-weight: var(--font-bold);
 }
 
 .sneaker__name {
@@ -339,7 +339,7 @@ img {
 .collection__card {
     position: relative;
     display: flex;
-    height: 328px;
+    height: 360px;
     background-color: var(--dark-color-lighten);
     padding: 2rem;
     border-radius: .5rem;
@@ -368,4 +368,11 @@ img {
 
 .collection__card:hover {
     transform: translateY(-5rem);
+}
+
+/* === Women Sneaker === */
+
+.women__container {
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
 }
